@@ -1,6 +1,6 @@
 # Lotem's Website
 
-## [Check out my personal-website](https://lotemmichael.github.io/PersonalWebsite/)
+## [Click to checkout my personal-website](https://lotemmichael.github.io/PersonalWebsite/)
 
 Here is short explanation of what you can find in my presonal website.
 
