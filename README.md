@@ -1,7 +1,8 @@
 # Lotem's Website
 
-Here is short explanation of what you can find in my presonal website.
+## [Check out my personal-website](https://lotemmichael.github.io/PersonalWebsite/)
 
+Here is short explanation of what you can find in my presonal website.
 
 ##  About page
  In my about page you can find a picture of myself and a short paragraph of my current status. At the bottom part of the page I implemented a 3*2 grid there you kind find more about me (education, employment and hobbies).
