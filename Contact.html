@@ -1,0 +1,84 @@
+<!--  Contact page -->
+<!-- In my contact page, I implemented a contact form where whoever will visit my site could contact me,  -->
+<!-- also on this page, you can find links to my social-media pages and other contact details of me. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+             <!--  Nav-Bar - link to about-page, link to contact-page and personal name. -->
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper ">
+                        <a href="index.html">About</a>
+                    </div>
+                    <div class="nav-link-wrapper active-nav-link">
+                        <a href="Contact.html">Contact</a>
+                    </div>    
+                </div>
+
+                <div class="rightside">
+                    <div class="brand">
+                        <div>LOTEM MICHAEL</div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="contact-content-wrapper">
+                <!-- Contact form -  -->
+                <!-- includes:  name, email and message as input fields. -->
+                <!-- If one of them isnt validate an eror_message will pop. -->
+                <!-- also has a "Send Message" button and a "Reset" button.  -->
+                <!-- Uses FormSubmit.co service - when a message is sent it will be forward to my email with all the relevant details. -->
+                <form id="myform" onsubmit="return validate()" action="https://formsubmit.co/lotem.mry@gmail.com" method="POST">
+                    <div class="title">
+                        <h2>CONTACT</h2>
+                    </div>
+                    <div class="half">
+                        <div class="item">
+                            <label for="name">NAME</label>
+                            <input type="text" id = "name" name = "name">
+                        </div>
+                        <div class="item">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id = "email" name = "email">
+                        </div>
+                    </div>
+                    <div class="full">
+                        <label for="Message">MESSAGE</label> 
+                        <textarea name="Message-Text" id="message" name = "message"></textarea> 
+                    </div>
+                    <div class="action">
+                        <input type="submit" value = "SEND MESSAGE">
+                        <input type="reset" value = "RESET">
+                    </div>
+                    <div id="error_message"></div>
+
+                    <!-- personal social-media links -->
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/lotem-michael-29a0571a4/" class = "fa fa-linkedin"></a>
+                        <a href="https://www.facebook.com/lotem.mry" class = "fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/lotem.michael/" class = "fa fa-instagram"></a>
+                    </div>
+
+                    <!-- further contact detail> -->
+                    <div class="contact details">
+                        <h3>Email : lotem.mry@gmail.com</h3>
+                    </div>
+                </form>
+
+                
+            </div>
+
+        </div>
+    </body>
+
+</html>
