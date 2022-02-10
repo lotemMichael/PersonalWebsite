@@ -1,6 +1,5 @@
 # Lotem's Website
 
-## My website:
 Here is short explanation of what you can find in my presonal website.
 
 
